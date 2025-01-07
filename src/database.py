@@ -6,4 +6,3 @@ from src.settings import settings
 
 engine = create_engine(settings.app.DB_URL)
 Session = sessionmaker(bind=engine)
-
